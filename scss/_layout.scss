@@ -1,6 +1,6 @@
 .logo {
     display: block;
-    background: no-repeat center url(img/logo.png);
+    background: no-repeat center url(../img/logo.png);
     width: 128px;
     text-indent: 110%;
     overflow: hidden;
@@ -9,13 +9,13 @@
 
 .footer-sub {
     display: block;
-    background: no-repeat center url(img/footer.png);
+    background: no-repeat center url(../img/footer.png);
     background-size: cover;
     height: 600px;
     white-space: nowrap;
 
     @include mobile {
-        background: no-repeat center url(img/footer-mobile.png);
+        background: no-repeat center url(../img/footer-mobile.png);
         background-size: cover;
     }
 
