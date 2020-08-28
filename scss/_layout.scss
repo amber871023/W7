@@ -1,0 +1,36 @@
+.logo {
+    display: block;
+    background: no-repeat center url(/img/logo.png);
+    width: 128px;
+    text-indent: 110%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.footer-sub {
+    display: block;
+    background: no-repeat center url(/img/footer.png);
+    background-size: cover;
+    height: 600px;
+    white-space: nowrap;
+
+    @include mobile {
+        background: no-repeat center url(/img/footer-mobile.png);
+        background-size: cover;
+    }
+
+    input {
+        border: 2px solid $primary;
+        height: auto;
+    }
+
+}
+
+
+.cart {
+    width: 16px;
+    height: 16px;
+    top: 3px;
+    right: 5px;
+    font-size: 12px;
+}

@@ -1,0 +1,19 @@
+.banner {
+    background: no-repeat center url(/img/index/banner.png);
+    height: 870px;
+
+    @include mobile() {
+        background: no-repeat center url(/img/index/banner-s.png);
+        background-size: cover;
+        height: 480px;
+    }
+}
+
+.soldout {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    opacity: 60%;
+}
