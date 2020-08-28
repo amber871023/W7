@@ -1,9 +1,9 @@
 .banner {
-    background: no-repeat center url(/img/index/banner.png);
+    background: no-repeat center url(img/index/banner.png);
     height: 870px;
 
     @include mobile() {
-        background: no-repeat center url(/img/index/banner-s.png);
+        background: no-repeat center url(img/index/banner-s.png);
         background-size: cover;
         height: 480px;
     }
