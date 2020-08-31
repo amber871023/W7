@@ -121,7 +121,10 @@
     </div>
     <!--漢堡選單-->
     <!--品牌列-->
-    <div class="container-fluid d-none d-md-flex bg-primary ">
+    <div
+        class="container-fluid d-none d-md-flex bg-primary "
+        data-aos="fade-right"
+    >
         <div class="container">
             <div class="row">
                 <ul class="nav d-lg-flex">
@@ -209,8 +212,14 @@
     <!--互動視窗-->
     <!--客製化開始-->
     <div class="container mt-12">
-        <div class="row flex-row-reverse">
-            <div class="col-12 col-md-6 col-lg-4">
+        <div
+            class="row flex-row-reverse"
+            data-aos="fade-left"
+        >
+            <div
+                class="col-12 col-md-6 col-lg-4"
+                data-aos="fade-down"
+            >
                 <img
                     class="img-fluid d-md-none d-block d-md-6"
                     src="img/productDetail/1.png"
@@ -221,7 +230,7 @@
                 <p class="h5 font-weight-normal mb-3">NT$4,980</p>
                 <div class="input-group mb-2">
                     <select
-                        class="w-50 custom-select"
+                        class="custom-select "
                         id="quantity"
                     >
                         <option>1</option>
@@ -229,11 +238,12 @@
                         <option>3</option>
                         <option>4</option>
                         <option>5</option>
+
                     </select>
-                    <div class="w-50 input-group-append">
+                    <div class="input-group-append w">
                         <button
                             type="button"
-                            class="btn btn-primary py-3 w-100"
+                            class="btn btn-primary py-3"
                             data-toggle="modal"
                             data-target="#addCart"
                         >加入購物車</button>
@@ -257,6 +267,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-8">
                 <img
+                    data-aos="fade-down"
                     class="img-fluid d-none d-md-block"
                     src="img/productDetail/1.png"
                     alt=""
@@ -264,7 +275,10 @@
                 <div class="w-100 mb-4 mb-md-11"></div>
 
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-6">
+                    <div
+                        class="col-12 col-md-6"
+                        data-aos="fade-down"
+                    >
                         <img
                             class="img-fluid w-100"
                             src="img/productDetail/2.png"
@@ -272,7 +286,10 @@
                         >
                     </div>
                     <div class="w-100 mb-4 d-md-none"></div>
-                    <div class="col-12 col-md-6">
+                    <div
+                        class="col-12 col-md-6"
+                        data-aos="fade-down"
+                    >
                         <img
                             class="img-fluid w-100"
                             src="img/productDetail/3.png"
@@ -280,7 +297,10 @@
                         >
                     </div>
                     <div class="w-100 mb-4 d-md-none"></div>
-                    <div class="col-12">
+                    <div
+                        class="col-12"
+                        data-aos="fade-down"
+                    >
                         <img
                             class="img-fluid d-md-none w-100"
                             src="img/productDetail/4-s.png"
@@ -289,6 +309,7 @@
                     </div>
                     <div class="w-100 mb-4 mb-md-11"></div>
                     <img
+                        data-aos="fade-down"
                         class="img-fluid mb-12 mb-md-8 d-none d-md-block"
                         src="img/productDetail/1.png"
                         alt=""
@@ -296,63 +317,92 @@
                 </div>
             </div>
         </div>
-
-        <!--客製化結束-->
-        <!--頁尾-->
-        <div class="footer bg-primary">
-            <!--版權-->
-            <div class="container-fluid footer-copy py-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-8 d-flex align-items-center">
-                            <a
-                                href="index.html"
-                                class="mr-5"
-                            ><img
-                                    src="img/footerLogo.png"
-                                    alt="footerLogo"
-                                ></a>
-                            <small>© 2020. All Rights Reserved.</small>
-                        </div>
-                        <ul class="nav col-md-4 d-none d-lg-flex align-items-center justify-content-end">
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link text-white"
-                                    href="product.html"
-                                >Product</a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link text-white"
-                                    href="#"
-                                >Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link text-white"
-                                    href="#"
-                                >Contact</a>
-                            </li>
-                        </ul>
+    </div>
+    <!--客製化結束-->
+    <!--頁尾-->
+    <div class="footer bg-primary">
+        <!--版權-->
+        <div class="container-fluid footer-copy py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8 d-flex align-items-center">
+                        <a
+                            href="index.html"
+                            class="mr-5"
+                        ><img
+                                src="img/footerLogo.png"
+                                alt="footerLogo"
+                            ></a>
+                        <small>© 2020. All Rights Reserved.</small>
                     </div>
+                    <ul class="nav col-md-4 d-none d-lg-flex align-items-center justify-content-end">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-white"
+                                href="product.html"
+                            >Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-white"
+                                href="#"
+                            >Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-white"
+                                href="#"
+                            >Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous"
-        ></script>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"
+    ></script>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/aos@next/dist/aos.css"
+    />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 225, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
 </body>
 
 </html>
