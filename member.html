@@ -121,7 +121,10 @@
     </div>
     <!--漢堡選單-->
     <!--品牌列-->
-    <div class="container-fluid d-none d-md-flex bg-primary mb-12 mb-md-9">
+    <div
+        class="container-fluid d-none d-md-flex bg-primary mb-12 mb-md-9"
+        data-aos="fade-right"
+    >
         <div class="container">
             <div class="row">
                 <ul class="nav d-lg-flex">
@@ -169,7 +172,10 @@
     <div class="container">
         <div class="row">
             <!--會員中心-->
-            <div class="col-lg-2 order-1 text-dark mb-12">
+            <div
+                class="col-lg-2 order-1 text-dark mb-12"
+                data-aos="fade-right"
+            >
                 <h5 class="d-none d-md-block font-weight-bold mb-6">會員中心</h5>
                 <ul class="nav d-flex flex-row flex-lg-column justify-content-between">
                     <li class="nav-item">
@@ -193,7 +199,10 @@
                 </ul>
             </div>
             <!--會員資料修改-->
-            <div class="col-md-7 col-lg-7 order-3 order-md-2 mb-12 mb-md-8">
+            <div
+                class="col-md-7 col-lg-7 order-3 order-md-2 mb-12 mb-md-8"
+                data-aos="fade-down"
+            >
                 <h6 class="font-weight-bold text-secondary border-bottom pb-2 mb-4">個人資料修改</h6>
                 <form class="text-dark">
                     <div class="form-group row">
@@ -421,7 +430,10 @@
                     </form>
             </div>
             <!--會員編碼-->
-            <div class="col-md-auto col-lg-3 order-2 order-md-2 text-dark mb-12">
+            <div
+                class="col-md-auto col-lg-3 order-2 order-md-2 text-dark mb-12"
+                data-aos="fade-left"
+            >
                 <h6 class="mb-6"><i class="fas fa-user-alt text-secondary mr-1"></i>會員編號 <span
                         class="h5">T00020080615</span></h6>
                 <table class="table mb-0">
@@ -508,6 +520,36 @@
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"
     ></script>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/aos@next/dist/aos.css"
+    />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 225, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+
 </body>
 
 </html>
